@@ -5,10 +5,10 @@
 %define	pdir	String
 %define	pnam	RexxParse
 Summary:	String::RexxParse - Perl implementation of REXX parse command
-#Summary(pl):	
+Summary(pl):	String::RexxParse - perlowa implementacja polecenia analizuj±cego REXX
 Name:		perl-String-RexxParse
 Version:	1.08
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,8 +23,12 @@ to give up REXX's template-based parsing abilities.  This module is my
 attempt to provide such parsing in Perl.  Consider it BETA level code.
 The documentation assumes a familiarity with REXX parse statements.
 
-# %description -l pl
-# TODO
+%description -l pl
+Niektórzy do¶wiadczeni programi¶ci REXX-a przerzucaj±cy siê na Perla
+uznali za trudne porzucenie REXX-owych mo¿liwo¶ci analizy opartej na
+wzorcach. Ten modu³ jest prób± udostêpnienia takiej analizy w Perlu.
+Kod jest na etapie BETA. Dokumentacja zak³ada znajomo¶æ wyra¿eñ
+analizuj±cych REXX-a.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -32,6 +36,7 @@ The documentation assumes a familiarity with REXX parse statements.
 %build
 perl Makefile.PL
 %{__make}
+
 %{!?_without_tests:%{__make} test}
 
 %install
