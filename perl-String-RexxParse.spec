@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	RexxParse
+%define		pdir	String
+%define		pnam	RexxParse
 Summary:	String::RexxParse - Perl implementation of REXX parse command
 Summary(pl):	String::RexxParse - implementacja perlowa polecenia analizuj±cego REXX
 Name:		perl-String-RexxParse
