@@ -10,7 +10,8 @@ Summary(pl):	String::RexxParse - implementacja perlowa polecenia analizuj±cego R
 Name:		perl-String-RexxParse
 Version:	1.08
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d7460e2ffe2122c2bbbfa8a4f1dd4256
