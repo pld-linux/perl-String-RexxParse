@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	RexxParse
 Summary:	String::RexxParse - Perl implementation of REXX parse command
-Summary(pl):	String::RexxParse - implementacja perlowa polecenia analizuj±cego REXX
+Summary(pl.UTF-8):   String::RexxParse - implementacja perlowa polecenia analizujÄ…cego REXX
 Name:		perl-String-RexxParse
 Version:	1.08
 Release:	3
@@ -26,12 +26,12 @@ to give up REXX's template-based parsing abilities.  This module is my
 attempt to provide such parsing in Perl.  Consider it BETA level code.
 The documentation assumes a familiarity with REXX parse statements.
 
-%description -l pl
-Niektórzy do¶wiadczeni programi¶ci REXX-a przerzucaj±cy siê na Perla
-uznali za trudne porzucenie REXX-owych mo¿liwo¶ci analizy opartej na
-wzorcach. Ten modu³ jest prób± udostêpnienia takiej analizy w Perlu.
-Kod jest na etapie BETA. Dokumentacja zak³ada znajomo¶æ wyra¿eñ
-analizuj±cych REXX-a.
+%description -l pl.UTF-8
+NiektÃ³rzy doÅ›wiadczeni programiÅ›ci REXX-a przerzucajÄ…cy siÄ™ na Perla
+uznali za trudne porzucenie REXX-owych moÅ¼liwoÅ›ci analizy opartej na
+wzorcach. Ten moduÅ‚ jest prÃ³bÄ… udostÄ™pnienia takiej analizy w Perlu.
+Kod jest na etapie BETA. Dokumentacja zakÅ‚ada znajomoÅ›Ä‡ wyraÅ¼eÅ„
+analizujÄ…cych REXX-a.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
