@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	RexxParse
 Summary:	String::RexxParse - Perl implementation of REXX parse command
-Summary(pl.UTF-8):   String::RexxParse - implementacja perlowa polecenia analizującego REXX
+Summary(pl.UTF-8):	String::RexxParse - implementacja perlowa polecenia analizującego REXX
 Name:		perl-String-RexxParse
 Version:	1.08
 Release:	3
