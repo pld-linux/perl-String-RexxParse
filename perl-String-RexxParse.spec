@@ -9,7 +9,7 @@ Summary:	String::RexxParse - Perl implementation of REXX parse command
 Summary(pl.UTF-8):	String::RexxParse - implementacja perlowa polecenia analizującego REXX
 Name:		perl-String-RexxParse
 Version:	1.08
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
