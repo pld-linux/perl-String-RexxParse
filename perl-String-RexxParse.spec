@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	String
 %define		pnam	RexxParse
+%include	/usr/lib/rpm/macros.perl
 Summary:	String::RexxParse - Perl implementation of REXX parse command
 Summary(pl.UTF-8):	String::RexxParse - implementacja perlowa polecenia analizującego REXX
 Name:		perl-String-RexxParse
@@ -15,15 +15,16 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d7460e2ffe2122c2bbbfa8a4f1dd4256
+URL:		http://search.cpan.org/dist/String-RexxParse/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Some long-time REXX programmers switching to Perl find it difficult
-to give up REXX's template-based parsing abilities.  This module is my
-attempt to provide such parsing in Perl.  Consider it BETA level code.
+Some long-time REXX programmers switching to Perl find it difficult to
+give up REXX's template-based parsing abilities. This module is my
+attempt to provide such parsing in Perl. Consider it BETA level code.
 The documentation assumes a familiarity with REXX parse statements.
 
 %description -l pl.UTF-8
