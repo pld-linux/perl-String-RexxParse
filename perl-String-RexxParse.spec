@@ -8,13 +8,13 @@
 Summary:	String::RexxParse - Perl implementation of REXX parse command
 Summary(pl.UTF-8):	String::RexxParse - implementacja perlowa polecenia analizującego REXX
 Name:		perl-String-RexxParse
-Version:	1.08
-Release:	4
+Version:	1.10
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d7460e2ffe2122c2bbbfa8a4f1dd4256
+# Source0-md5:	e46a78a8f805086884e23965ef754c2b
 URL:		http://search.cpan.org/dist/String-RexxParse/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
